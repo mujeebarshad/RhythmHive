@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="android.view.View"/>
+        <import type="android.text.TextUtils"/>
+    <variable
+        name="global"
+        type="com.example.hp.featuredsongs.activities.Global" />
+    </data>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/gradient"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:visibility="@{TextUtils.isEmpty(global.uname) ? View.GONE : View.VISIBLE}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openProfile"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:visibility="@{TextUtils.isEmpty(global.uname) ? View.GONE : View.VISIBLE}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@{global.uname}"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:visibility="@{TextUtils.isEmpty(global.uname) ? View.GONE : View.VISIBLE}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sunny@gmail.com" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:onClick="ToggleUser"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundbutton"
+        android:text='@{TextUtils.isEmpty(global.uname) ? "Login" : "Logout"}'
+        android:textColor="@color/viewBg"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</layout>

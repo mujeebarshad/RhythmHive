@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RHYTHMHIVE</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_queue">Add to Queue</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 songs</string>
+    <string name="action_search">Search Songs</string>
+    <string name="search_hint">Search Songs</string>
+    <string name="action_login">Login</string>
+    <string name="action_signup">Signup</string>
+    <string name="action_now_playing">Now Playing</string>
+    <string name="transition_name_title" translatable="false">title</string>
+    <string name="transition_name_cover" translatable="false">cover</string>
+    <string name="transition_name_time" translatable="false">time</string>
+    <string name="transition_name_duration" translatable="false">duration</string>
+    <string name="transition_name_progress" translatable="false">progress</string>
+    <string name="transition_name_fab" translatable="false">fab</string>
+    <string name="play_vector_path" translatable="false">M6,5 l12,7 l0,0 l-12,0z M6,12 l12,0 l0,0 l-12,7z</string>
+    <string name="pause_vector_path" translatable="false">M5,6 l14,0 l0,4 l-14,0z M5,14 l14,0 l0,4 l-14,0z</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>\
+    <string name="action_rm_queue">Remove from Queue</string>
+    <string name="action_rm_playlist">Remove from Playlist</string>
+    <string name="action_rm_eplaylist">Remove Playlist</string>
+    <string name="title_activity_playlist_list">PlaylistList</string>
+    <string name="action_add_playlist">Add to playlist</string>
+    <string name="action_my_music">My Music</string>
+
+    <string name="sessions">%s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

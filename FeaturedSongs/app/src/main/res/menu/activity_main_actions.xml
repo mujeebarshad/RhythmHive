@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/action_search"
+    android:icon="@drawable/ic_action_search"
+    android:color="@color/textcolor"
+    android:title="@string/action_search"
+    app:actionViewClass="android.widget.SearchView"
+    app:showAsAction="always" />
+    <item
+        android:id="@+id/action_login"
+        android:title="@string/action_login"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sign_up"
+        android:title="@string/action_signup"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_now_playing"
+        android:title="@string/action_now_playing"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_my_music"
+        android:title="@string/action_my_music"
+        app:showAsAction="never"/>
+</menu>

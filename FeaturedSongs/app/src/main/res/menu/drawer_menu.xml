@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nowplaying"
+            android:icon="@drawable/ic_nowplaying"
+            android:title="Now playing" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_queue"
+            android:icon="@drawable/ic_queue"
+            android:title="Queue" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/ic_people"
+            android:title="People" />
+        <item
+            android:id="@+id/nav_mymusic"
+            android:icon="@drawable/ic_mymusic"
+            android:title="My Music" />
+        <item
+            android:id="@+id/nav_mood"
+            android:icon="@drawable/ic_mood"
+            android:title="Mood" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+    </group>
+
+
+</menu>

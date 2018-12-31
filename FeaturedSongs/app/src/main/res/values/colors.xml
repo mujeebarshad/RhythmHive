@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe2960</color>
+    <color name="colorPrimaryDark">#da0138</color>
+    <color name="colorAccent">#fe2960</color>
+    <color name="pink">#Fe104d</color>
+    <color name="viewBg">#080808</color>
+    <color name="textcolor">#f1f5f8</color>
+    <color name="tileBack">#101010</color>
+    <color name="colorPane">#33C2CAC9</color>
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#061161</color>
+    <color name="gradStart">#780206</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="white">#ffffff</color>
+
+    android:startColor="#780206"
+    android:endColor="#061161"
+
+</resources>
+
