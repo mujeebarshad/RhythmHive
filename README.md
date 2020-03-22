@@ -11,3 +11,53 @@ To make this application more captivating and engaging to the audience, this mod
 
 •	 Music Analysis:
 After successfully predicting the emotional state of the user (with the help of an API) songs are automatically fetched matching with the user’s current mood. All the information needed is already given in the Meta data of .mp3 file.
+
+High-level system components
+
+The higher level system components of this proposed project are stated below:
+
+•	Frame Capturing:
+
+  o	Real time image processing.
+
+  o	Conversion of frames into grayscale images of 48x48 dimensions.
+
+
+•	Emotion Detector:
+
+  o	Creation and training of Convolution Neural Network.
+
+  o	Detection of emotion based upon the Neural Network verdict.
+
+  o	Re-detection of mood after end of a song.
+
+
+•	Music Generation:
+
+  o	Fetch list of songs based on user’s emotion using the metadata of music file.
+
+
+•	Voice Recognition:
+
+  o	Operate the media player using pre-defined voice commands.
+
+
+•	Profile Creation and Management:
+
+  o	Sign up & Facebook Login.
+  
+  o	Follow other people.
+  
+  o	Search songs (keyword based). 
+  
+  o	Create and update playlists.
+  
+  o	Share songs on social networking websites.
+
+
+•	Data Storage:
+  
+  o	Storing data of user.
+
+  o	Manipulation of data.
+
